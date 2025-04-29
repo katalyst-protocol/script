@@ -37,7 +37,7 @@ async function main() {
 
   while (true) {
     if (!page.events.length) {
-      console.log("No events found, waiting...");
+      // console.log("No events found, waiting...");
       await new Promise((r) => setTimeout(r, 2000));
     } else {
       console.log("\n=== Simplified Events ===");
